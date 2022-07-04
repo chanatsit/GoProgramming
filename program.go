@@ -3,7 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	age := 45
+	// เปลี่ยนแปลง
+	age := 80
 	//var name string = "Chanat"
 	name := "chanat"
 	fmt.Println("Hello Programming")
