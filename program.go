@@ -21,4 +21,9 @@ func main() {
 	fmt.Println("ผลบวก  = ", number1+number2)
 	fmt.Println("ผลหาร = ", number1/number2)
 	fmt.Println("เศษผลหาร = ", number1%number2)
+	fmt.Printf("ค่าเฉลี่ยที่ได้คือ %v\n", (number1+number2)/2)
+	// ตัวดำเนินการเปรียบเทียบ ==, !=, >, <, >=, <=
+	fmt.Println("จำนวนสองจำนวนนี้เท่ากันหรือไม่ ", number1 == number2)
+	fmt.Println("จำนวนที่หนึ่งมากกว่าจำนวนที่สองหรือไม่ ", number1 > number2)
+
 }
