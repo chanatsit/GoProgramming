@@ -48,4 +48,14 @@ func main() {
 	default:
 		fmt.Println("ไม่ถูกต้อง")
 	}
+	// array
+	//var number5 [3]int = [3]int{100, 200, 300}
+	number4 := [3]int{100, 200, 300}
+	fmt.Println(number4)
+	fmt.Println(len(number4))
+	number5 := [...]int{100, 200, 300, 400} // เพิ่มข้อมูลได้เรื่อยๆ
+	fmt.Println(len(number5))
+	fmt.Println(number5[0])
+	number6 := [3]int{10, 20} // default => [10,20,0]
+	fmt.Println(number6)
 }
