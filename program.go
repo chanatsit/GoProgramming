@@ -58,4 +58,19 @@ func main() {
 	fmt.Println(number5[0])
 	number6 := [3]int{10, 20} // default => [10,20,0]
 	fmt.Println(number6)
+	//https://www.youtube.com/watch?v=00x6YhoA3oo&list=PLltVQYLz1BMBMBhMu1-XztADypuw-DmkQ&index=21
+	// สอน Maps
+	population := map[string]int{}
+	population["Thailand"] = 70
+	population["England"] = 50
+	fmt.Println(population["Thailand"])
+
+	//ตรวจสอบ key , value
+	value, iskey := population["Thailand"]
+
+	if iskey {
+		fmt.Println("ค่าของ value คือ ", value)
+	} else {
+		fmt.Println("ไม่พอข้อมูล")
+	}
 }
