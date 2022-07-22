@@ -68,9 +68,22 @@ func main() {
 	//ตรวจสอบ key , value
 	value, iskey := population["Thailand"]
 
-	if iskey {
+	if iskey { // iskey == True
 		fmt.Println("ค่าของ value คือ ", value)
 	} else {
 		fmt.Println("ไม่พอข้อมูล")
 	}
+
+	country := map[string]int{"TH": 10}
+	//country["TH"] = "thailand"
+	value, key := country["TH"]
+	if key {
+		fmt.Println(value) // ใช้ได้เฉพาะกับ integer เท่านั้น
+	} else {
+		fmt.Println("Not Found")
+	}
+
+	coin := map[string]string{"BTC": "Bit Coin", "ETH": "Etherum"}
+	fmt.Println("the BTC is ", coin["BTC"])
+
 }
