@@ -86,4 +86,12 @@ func main() {
 	coin := map[string]string{"BTC": "Bit Coin", "ETH": "Etherum"}
 	fmt.Println("the BTC is ", coin["BTC"])
 
+	// ครั้งที่ 23 : https://www.youtube.com/watch?v=qH_O9AmSEVA&list=PLltVQYLz1BMBMBhMu1-XztADypuw-DmkQ&index=23
+
+	for count := 1; count <= 3; count++ {
+		fmt.Printf("Chanat Sittipolpat %T\n", count)
+		fmt.Printf("Chanat Sittipolpat %v\n", count)
+		// %T คือ type of data ,  %v คือ value of data
+	}
+
 }
